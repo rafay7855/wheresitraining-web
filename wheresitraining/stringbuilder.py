@@ -5,7 +5,7 @@ import country_converter as coco
 from flask import current_app
 from settings import APP_STATIC
 
-OWM_API_KEY = "1f4ebc962bb46caeb74ac2f5ec662fd4"
+OWM_API_KEY = # REDACTED
 
 filepath = 'city.list.json'
 with open(os.path.join(APP_STATIC, filepath), encoding="utf-8") as f:
